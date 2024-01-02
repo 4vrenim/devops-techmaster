@@ -1,0 +1,147 @@
+Câu lệnh nào được sử dụng để xóa thư mục  
+A. rmdir  
+B. rd  
+C. remove  
+D. rdir  
+> A
+
+Câu lệnh nào được sử dụng với vi editor để xóa ký tự?
+A. z
+B. a
+C. y
+D. x
+> D
+
+Câu lệnh nào được sử dụng để đếm số lượng dòng, từ, và ký tự trong một tệp tin?
+A. count p
+B. wc
+C. wcount
+D. countw
+> B
+
+Câu lệnh nào được sử dụng để xóa tệp tin?
+A. erase
+B. delete
+C. rm
+D. dm
+> C
+
+Câu lệnh nào được sử dụng để lưu lại tệp tin và vẫn mở tệp tin?
+A. :q
+B. :w
+C. :q!
+D. x
+> B
+
+Công cụ nào dưới đây cho phép nhập vào các lệnh của Linux?
+A. Terminal
+C. XWindow
+D. Firefox
+E. Xargs
+> A
+
+Câu lệnh nào sau đây làm tăng số lượng phần phần tử trong một thư mục? (chọn 2 đáp án)
+A. touch newfile
+B. create newfile
+C. ls newfile
+D. rmdir newdirectory
+E. mkdir newdirectory
+> A, E
+
+Câu lệnh nào đưa thư mục làm việc về thư mục home?
+A. cd
+B. cd ~
+C. Cả A và B
+D. Không có phương án đúng
+> B
+
+Câu lệnh nào sau đây dùng để làm sạch hiển trị trên terminal?
+A. netstat
+B. clean
+C. clear
+D. ping
+> C
+
+Câu lệnh nào sau đây di chuyển(move) thư mục ~/summer-vaction và nội dung của nó tới ~/vacation/2023
+A. mv ~/vacation/2023 ~/sumer-vacation
+B. move -R ~/summer-vacation ~/vacation
+C. mv /home/summer-vacation /home/vacation/2023
+D. mv ~/summer-vacation ~/vacation/2023
+> D
+
+Đâu là chức năng mà shell phục vụ?
+A. Cung cấp môi trường đồ họa
+B. Chịu trách nhiệm cho thiết lập kết nối tới máy tính khác
+C. Nhận câu lệnh từ người dùng và thực thi chúng
+D. Chịu trách nhiệm cho ghi lại hành vi người dùng vào hệ thống
+> C
+
+Câu lệnh nào hiển thị thông tin của các tiến trình đang chạy và cập nhật theo thời gian thực?
+A. top
+B. show
+C. ps
+D. process
+> A
+
+Tên của tệp tin/thư mục bắt đầu với ký tự nào sẽ cho khả năng ẩn đi nếu không có yêu cầu đặc biệt? Ví dụ: câu lệnh ls sẽ không trả về những tệp tin hoặc thư mục ẩn.
+A. \ (gạch chéo xuống)
+B. . (chấm)
+C. - (gạch ngang)
+D. _ (gạch dưới)
+> B
+
+Theo dõi đoạn lệnh dưới đây.
+
+$ my_var=learning
+$ my_var=devops
+$ my_var_2=hard_way
+$ my_var=$my_var_2
+
+Hãy cho biết giá trị của biến my_var sau khi thực hiện các lệnh trên
+A. learning
+B. devops
+C. hard_way
+D. my_var_2
+> C
+
+/bin/sh là gì?
+A. bash shell
+B. bourne shell
+C. symbolic link cho câu lệnh khác
+D. Không có đáp án đúng
+> B
+
+Câu lệnh nào cho phép tạo bí danh(alias), cho phép gõ tắt các câu lệnh dài?
+A. echo
+B. new
+C. alias
+D. set
+> C
+
+Ký tự nào dùng để comment trong bash/shell script?
+A. #
+B. //
+C. %
+D. Không có cách comment
+> A
+
+Tổ hợp phím Ctrl+C có ý nghĩa gì trong terminal?
+A. Thực hiện copy nội dung của text được bôi đen
+B. Hủy bỏ tiến trình đang được thực thi trên phiên làm việc của terminal
+C. Ghi nội dung của bộ nhớ đệm vào terminal
+D. Không có đáp án đúng
+> B
+
+Tham số nào cho phép câu lệnh mkdir tạo liên tiếp các thư mục trong thư mục?
+A. -p
+B. -r
+C. -c
+D. -i
+> A
+
+Ký hiệu nào cho phép đầu ra của câu lệnh echo được ghi vào tệp tin? (chọn 2 đáp án)
+A. to
+B. >
+C. >>
+D. <
+> B, C
