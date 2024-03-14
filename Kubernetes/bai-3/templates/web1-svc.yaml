@@ -13,6 +13,6 @@ spec:
     targetPort: 1111
   selector:
     app: web1
-  type: ClusterIP
+  type: NodePort
 status:
   loadBalancer: {}

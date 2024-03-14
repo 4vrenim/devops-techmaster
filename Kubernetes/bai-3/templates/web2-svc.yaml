@@ -13,6 +13,6 @@ spec:
     targetPort: 2222
   selector:
     app: web2
-  type: ClusterIP
+  type: NodePort
 status:
   loadBalancer: {}
