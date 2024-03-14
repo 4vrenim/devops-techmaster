@@ -15,11 +15,11 @@ spec:
           service:
             name: web1
             port:
-              number: 8011
+              number: 8081
       - path: "/web2"
         pathType: Prefix
         backend:
           service:
             name: web2
             port:
-              number: 8022
+              number: 8082
