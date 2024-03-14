@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: web2
+  name: web2
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web2
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: web2
+    spec:
+      containers:
+      - image: nginx
+        name: web2-nginx
+        ports:
+          - containerPort: 2222
+        resources: {}
+        volumeMounts:
+          - name: web2-config-volume
+            mountPath: /etc/nginx/conf.d
+          - name: web2-source
+            mountPath: /var/www/public
+      volumes:
+      - name: web2-config-volume
+        configMap:
+          name: web2-config
+      - name: web2-source
+        persistentVolumeClaim:
+          claimName: pvc2
+status: {}

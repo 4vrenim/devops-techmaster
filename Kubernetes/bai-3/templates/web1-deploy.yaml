@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: web1
+  name: web1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: web1
+    spec:
+      containers:
+      - image: nginx
+        name: web1-nginx
+        ports:
+          - containerPort: 1111
+        resources: {}
+        volumeMounts:
+          - name: web1-config-volume
+            mountPath: /etc/nginx/conf.d
+          - name: web1-source
+            mountPath: /var/www/public
+      volumes:
+      - name: web1-config-volume
+        configMap:
+          name: web1-config
+      - name: web1-source
+        persistentVolumeClaim:
+          claimName: pvc1
+status: {}
