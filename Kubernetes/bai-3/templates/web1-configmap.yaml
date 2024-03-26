@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   web1.conf: "server {\n  listen   1111;\n\n  root /var/www/public;\n  index index.html
-    index.htm;\n\n  server_name web1.com;\n  \n  location / {\n   default_type \"text/html\";\n
+    index.htm;\n\n  server_name _;\n  \n  location / {\n
     \  try_files $uri.html $uri $uri/ /index.html;\n  }\n}\n"
 kind: ConfigMap
 metadata:
